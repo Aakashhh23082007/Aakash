@@ -1,7 +1,10 @@
-
-function sq(x){
-    let ans=0;
-    ans=x*x;
-    return ans;
+function greet(name, cb){
+    console.log("Hello," + name + "!");
+    cb();
 }
-console.log(sq(9));
+
+function gdb(){
+    console.log("Goodbye!");
+
+}
+greet("Aakash",gdb);

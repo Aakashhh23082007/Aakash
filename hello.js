@@ -24,6 +24,7 @@ console.log("Task 1")
 for(let)
 
 
+
 const prompt = require('prompt-sync')();
 const name = prompt("What is your name?");
 console.log("Hello,"+name+"!");

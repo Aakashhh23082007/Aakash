@@ -8,3 +8,14 @@ function sq(x){
     return ans;
 }
 console.log(sq(9));
+
+function greet(name, cb){
+    console.log("Hello," + name + "!");
+    cb();
+}
+
+function gdb(){
+    console.log("Goodbye!");
+
+}
+greet("Aakash",gdb);
