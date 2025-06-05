@@ -19,3 +19,11 @@ if(fill<=50){
     console.log("fill is above 75")
 
 }
+
+console.log("Task 1")
+for(let)
+
+
+const prompt = require('prompt-sync')();
+const name = prompt("What is your name?");
+console.log("Hello,"+name+"!");
